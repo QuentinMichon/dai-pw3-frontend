@@ -5,8 +5,8 @@ networks:
 services:
   appapi:
     build: .
-    container_name: react-app-api:latest
-    image: ghcr.io/quentinmichon/react-app-api:latest
+    container_name: react-app
+    image: react-app
 
     networks:
       - traefik_network
