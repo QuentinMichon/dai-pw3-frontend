@@ -3,7 +3,7 @@ networks:
     external: true
 
 services:
-  airapi:
+  appapi:
     build: .
     container_name: react-app-api:latest
     image: ghcr.io/quentinmichon/react-app-api:latest
